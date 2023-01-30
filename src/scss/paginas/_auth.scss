@@ -1,0 +1,37 @@
+@use '../base/mixins' as m;
+
+.auth{
+
+    @include m.contenedor-sm;
+
+
+}
+
+
+/*
+.auth{
+
+    @include m.contenedor-sm;
+ 
+    //une el selector (elemento)con el padre auth
+    &__heading {
+        font-size: 3rem;
+        color:red;  
+        &--blanco {
+            color:white;
+        }
+    }
+}
+*/
+
+/*//Para titulos  es lo mismo de arriba
+.auth__heading {
+    font-size: 5rem;   
+
+}
+*/
+
+//Para texto
+.auth__texto{
+    font-size: 2rem;
+}
